@@ -733,7 +733,7 @@ input:disabled + .switch__toggle {
     background-image: -o-linear-gradient(90deg, #bbb, #bbb 50%, transparent 50%);
     background-image: linear-gradient(0deg, #bbb, #bbb 50%, transparent 50%);
   }
-}
+
 .navigation-bar__bg {
   background: #fff;
 }
@@ -6161,3 +6161,157 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   -o-transform: scale(0);
   transform: scale(0);
 }
+
+
+.cmha{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .cmha,.cmha:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.biography{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .biography,.biography:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.row{
+  padding-right: 150 px
+}
+
+p.distance{
+  line-height: 70%
+}
+
+body {
+  background: rgb(223,227,238);
+}
+h1 {
+  background: rgba(1,1,1,1);
+  text-align: center;
+  margin: 30px 0px;
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+}
+h1:hover {
+  background: rgba(1,1,1,0.7);
+}
+.info {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+  background: rgba(1,1,1,1);
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));  
+}
+.contributor {
+  border: solid 2px black;
+  height: 200px;
+  position: relative; 
+  margin: 0px 0px 40px 0px;
+}
+.one {
+  background-image: url(../images/Vuong-gia-tuan.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.two {
+  background-image: url(../images/Phung-le-thy.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.three {
+  background-image: url(../images/Tang-bao-quyen.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.four {
+  background-image: url(../images/Nguyen-le-thuy-linh.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.five {
+  background-image: url(../images/Aubrey-phan.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.six {
+  background-image: url(../images);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+.seven {
+  background-image: url(../images/Nguyen-thi-thien-tram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.eight {
+  background-image: url(../images/.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.nine {
+  background-image: url(../images/Nguyen-anh-khoi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.eight {
+  background-image: url(../images-tuan/homePage/american-flag.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.event:hover {
+  border: solid 2px white;
+}
+.name {
+  font-family: 'Poiret One', cursive;
+  font-size: 17px;
+  font-weight: bold;
+}
+.program {
+  float: right;
+  font-family: 'Poiret One', cursive;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+
+
+

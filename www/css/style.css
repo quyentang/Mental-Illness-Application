@@ -1,2 +1,66 @@
-/**/
+/*events.css*/
+.container-fluid{
+    margin: 10px 0 10px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer{
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* end events.css */
+
+.cmha{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .cmha,.cmha:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.biography{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .biography,.biography:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.row{
+	padding-right: 50 px
+}
+
+p.distance{
+	line-height: 70%
+}
+
+
+
+
+
+.event:hover {
+	border: solid 2px white;
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+a:visited {
+	color: white;
+}
+
+
 
